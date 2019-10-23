@@ -136,7 +136,8 @@ exports.config = {
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
     mochaOpts: {
-        ui: 'bdd'
+        ui: 'bdd',
+        compilers: ['js:@babel/register']
     },
     //
     // =====
@@ -169,7 +170,7 @@ exports.config = {
      * @param {Array.<String>} specs List of spec file paths that are to be run
      */
     before: function (capabilities, specs) {
-        expect = require('chai').expect;
+        require('@babel/register')
     },
     /**
      * Runs before a WebdriverIO command gets executed.

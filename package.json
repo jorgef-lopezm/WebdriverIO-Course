@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/jorgef-lopezm/WebdriverIO-Course#readme",
   "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.6.2",
     "chai": "^4.2.0",
     "selenium-standalone": "^6.15.3",
     "wdio-mocha-framework": "^0.6.4",
