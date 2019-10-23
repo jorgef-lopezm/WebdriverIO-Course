@@ -1,0 +1,26 @@
+{
+  "name": "webdriverio-course",
+  "version": "1.0.0",
+  "description": "Webdriver IO Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgef-lopezm/WebdriverIO-Course.git"
+  },
+  "author": "Jorge Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorgef-lopezm/WebdriverIO-Course/issues"
+  },
+  "homepage": "https://github.com/jorgef-lopezm/WebdriverIO-Course#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "selenium-standalone": "^6.15.3",
+    "wdio-mocha-framework": "^0.6.4",
+    "wdio-selenium-standalone-service": "0.0.12",
+    "webdriverio": "^4.13.2"
+  }
+}
